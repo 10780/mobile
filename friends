@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc1c1c1"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search for Friends"
+        android:id="@+id/friendButton"
+        android:background="@android:color/background_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search for Groups"
+        android:id="@+id/groupButton"
+        android:background="@android:color/background_light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:id="@+id/friends"
+        android:layout_weight="0.62"
+        android:background="#ffebebeb"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adspace2"
+        android:layout_weight="0.20"
+        android:background="#ffffffff" />
+</LinearLayout>
