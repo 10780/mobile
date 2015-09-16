@@ -17,7 +17,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.EditText;
 
-
+/*App needs to be made as simple as possible for use, download and go
+* No registration necessary, build groups from existing contacts. Messages go out to all members, chain from there
+* internet connection needed for sending multimedia messages
+*/
 
 public class MainActivity extends ActionBarActivity {
 
