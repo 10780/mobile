@@ -12,3 +12,5 @@ what it needs are these things-
   able to send chain messages
   
   send encoded data out with picture (coordinates, timestamp, etc)
+
+more files will have to be made to actually run the app (have the app send/recieve messages, etc)
