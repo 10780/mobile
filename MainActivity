@@ -18,8 +18,11 @@ import android.widget.ImageView;
 import android.widget.EditText;
 
 /*App needs to be made as simple as possible for use, download and go
-* No registration necessary, build groups from existing contacts. Messages go out to all members, chain from there
-* internet connection needed for sending multimedia messages
+* Messages go out to all members or just to individual contacts, chain thing will be the big part
+* Also need to figure out how to do photo/video fx stuff (like Instagram or some of the others, people like that)
+*
+* Figure out backend stuff
+* so happy I finally found this again :)
 */
 
 public class MainActivity extends ActionBarActivity {
@@ -37,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
         trendPic = (ImageView) findViewById(R.id.trendPic);
 
         /*Disables camera if none is detected
-         *Most phones have cameras so this is a non-issue
+         Most phones have cameras so this is a non-issue
         */
 
         if (!hasCamera())
